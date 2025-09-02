@@ -60,4 +60,3 @@ print("\nResumen del juego:")
 print("Victorias:", victorias)
 print("Derrotas:", derrotas)
 print("Empates:", empates)
-
