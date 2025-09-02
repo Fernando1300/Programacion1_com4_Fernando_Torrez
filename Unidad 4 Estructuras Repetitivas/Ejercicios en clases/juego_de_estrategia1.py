@@ -20,7 +20,7 @@ for num in range(1, 6):
     for letra in mensaje.lower():
         if letra in alfabeto:  #Si es una letra
             indice_letra = alfabeto.index(letra)
-            nuevo_indice = (indice_letra + corrimiento) % 27
+            nuevo_indice = (indice_letra + corrimiento) % 27 
             mensaje_encriptado += alfabeto[nuevo_indice]
         else:
             mensaje_encriptado += letra  #Deja espacios o símbolos igual

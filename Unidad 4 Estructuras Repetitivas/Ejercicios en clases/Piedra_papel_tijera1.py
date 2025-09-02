@@ -6,7 +6,7 @@ empates = 0
 continuar = 1
 
 while continuar == 1:
-    print("\nElige una opción:")
+    print("\nElige una opción:") 
     print("1. Piedra")
     print("2. Papel")
     print("3. Tijera")
